@@ -154,15 +154,30 @@ table {
   flex-direction: row;
 }
 .container li {
-  width: 25%;
+  margin: auto auto;
 }
 
 .container a {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  padding-left: 50px;
 }
-a:hover {
+.container a:hover {
   text-decoration: none;
+}
+
+.xyfs {
+  display: flex;
+  flex-direction: row;
+  margin: auto auto;
+  width: 70%;
+  padding: 15px;
+}
+.xyfs li {
+  margin: auto;
+}
+.xyfs a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
 }
