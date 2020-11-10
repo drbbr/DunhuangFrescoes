@@ -187,6 +187,10 @@ table {
   line-height: 1.5;
 }
 
+.container4 img {
+  width: 20%;
+}
+
 .xyfs {
   display: flex;
   flex-direction: row;
@@ -197,8 +201,6 @@ table {
 .xyfs li {
   margin: auto;
 }
-.xyfs a {
-  text-decoration: none;
-  color: rgb(46, 57, 116);
-  font-size: 50px;
+.xyfs img {
+  max-width: 100%;
 }
