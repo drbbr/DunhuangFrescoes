@@ -177,8 +177,8 @@ table {
 
 /* indexbanner*/
 .bannerbg {
-  width: 80%;
-  margin: auto 10%;
+  width: 70%;
+  margin: auto 15%;
 }
 .left {
   position: absolute;
@@ -221,7 +221,7 @@ table {
   position: absolute;
   right: 40%;
   width: 20%;
-  top: 30%;
+  top: 35%;
   opacity: 0;
   animation-name: center;
   animation-duration: 5s;
@@ -239,9 +239,22 @@ table {
 
 .title {
   position: absolute;
-  right: 43%;
+  right: 42%;
   width: 15%;
-  top: 14%;
+  top: 12%;
+  opacity: 0;
+  animation-name: title;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container4 {
