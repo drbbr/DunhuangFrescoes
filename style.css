@@ -182,14 +182,68 @@ table {
 }
 .left {
   position: absolute;
-  letf: 10%;
+  width: 25%;
+  left: 10%;
+  top: 15%;
+  animation-name: left;
+  animation-duration: 5s;
+}
+@keyframes left {
+  0% {
+    left: 50%;
+    opacity: 0;
+  }
+  100% {
+    left: 10%;
+    opacity: 1;
+  }
 }
 .right {
   position: absolute;
+  width: 25%;
   right: 10%;
+  top: 15%;
+  animation-name: right;
+  animation-duration: 5s;
 }
+@keyframes right {
+  0% {
+    right: 50%;
+    opacity: 0;
+  }
+  100% {
+    right: 10%;
+    opacity: 1;
+  }
+}
+
 .center {
+  position: absolute;
+  right: 40%;
+  width: 20%;
+  top: 30%;
+  opacity: 0;
+  animation-name: center;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
+@keyframes center {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  position: absolute;
+  right: 43%;
+  width: 15%;
+  top: 14%;
+}
+
 .container4 {
   margin: 10px 50px;
 }
