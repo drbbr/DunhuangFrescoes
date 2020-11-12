@@ -160,12 +160,36 @@ table {
 .container a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 26px;
 }
 .container a:hover {
   text-decoration: none;
 }
 
+.text {
+  font-size: 24px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 20px;
+  text-indent: 2em;
+  line-height: 1.5;
+}
+
+/* indexbanner*/
+.bannerbg {
+  width: 80%;
+  margin: auto 10%;
+}
+.left {
+  position: absolute;
+  letf: 10%;
+}
+.right {
+  position: absolute;
+  right: 10%;
+}
+.center {
+}
 .container4 {
   margin: 10px 50px;
 }
@@ -177,14 +201,6 @@ table {
   font-size: 45px;
   text-align: center;
   padding: 20px;
-}
-.container4 p {
-  font-size: 24px;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 20px;
-  text-indent: 2em;
-  line-height: 1.5;
 }
 
 .container4 img {
@@ -203,4 +219,13 @@ table {
 }
 .xyfs img {
   max-width: 100%;
+}
+
+.introduction {
+  font-size: 24px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 20px;
+  text-indent: 2em;
+  line-height: 1.5;
 }
