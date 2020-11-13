@@ -175,6 +175,49 @@ table {
   line-height: 1.5;
 }
 
+.text_in {
+  font-size: 24px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 20px;
+  text-indent: 2em;
+  line-height: 1.5;
+  background-color: rgba(255, 208, 122, 0.5);
+}
+
+.text_his {
+  font-size: 24px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 20px;
+  text-indent: 2em;
+  line-height: 1.7;
+  background-color: rgba(202, 138, 0, 0.5);
+}
+
+.text_his2 {
+  font-size: 24px;
+
+  padding-right: 25%;
+  padding-bottom: 20px;
+  text-indent: 2em;
+  line-height: 1.7;
+  background-color: rgba(202, 138, 0, 0);
+}
+
+.title_up {
+  position: absolute;
+  width: 3%;
+  left: 15%;
+}
+
+.title_down {
+  position: absolute;
+  width: 3%;
+  left: 18%;
+  padding-top: 5%;
+}
+
 /* indexbanner*/
 .bannerbg {
   width: 70%;
@@ -294,5 +337,15 @@ table {
   padding-right: 15%;
   padding-bottom: 20px;
   text-indent: 2em;
+  line-height: 1.5;
+}
+
+.littlehead {
+  color: black;
+
+  text-align: initial;
+  font-size: 40px;
+  padding-top: 3%;
+  padding-left: 70%;
   line-height: 1.5;
 }
