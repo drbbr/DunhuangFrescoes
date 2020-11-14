@@ -188,7 +188,6 @@ table {
   line-height: 1.8;
   background-color: rgba(194, 202, 199, 0.7);
 }
-<<<<<<< Updated upstream
 .text_yue {
   font-size: 24px;
   margin: 10% 5%;
@@ -209,10 +208,9 @@ table {
   text-indent: 2em;
   line-height: 2.3;
   background-color: rgba(194, 202, 199, 0.7);
-=======
+}
 .introductiongp {
   background-color: rgba(230, 220, 196, 0.7);
->>>>>>> Stashed changes
 }
 
 .text_in {
@@ -415,6 +413,7 @@ table {
 
 .subhead {
   font-size: 36px;
+  font-family: monospace;
   font-weight: bold;
   text-align: center;
   padding-top: 20px;
