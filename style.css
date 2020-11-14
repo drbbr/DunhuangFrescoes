@@ -188,6 +188,7 @@ table {
   line-height: 1.8;
   background-color: rgba(194, 202, 199, 0.7);
 }
+<<<<<<< Updated upstream
 .text_yue {
   font-size: 24px;
   margin: 10% 5%;
@@ -208,6 +209,10 @@ table {
   text-indent: 2em;
   line-height: 2.3;
   background-color: rgba(194, 202, 199, 0.7);
+=======
+.introductiongp {
+  background-color: rgba(230, 220, 196, 0.7);
+>>>>>>> Stashed changes
 }
 
 .text_in {
@@ -217,47 +222,72 @@ table {
   padding-bottom: 20px;
   text-indent: 2em;
   line-height: 1.5;
-  background-color: rgba(255, 208, 122, 0.5);
+  padding-bottom: 80px;
 }
 
 .text_his {
   font-size: 24px;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-bottom: 20px;
+  margin: 20px 25%;
   text-indent: 2em;
   line-height: 1.7;
-  background-color: rgba(202, 138, 0, 0.5);
+  margin-bottom: 80px;
 }
 
-.text_his2 {
+.text_his_l {
   font-size: 24px;
-
-  padding-right: 25%;
+  padding-left: 33.3%;
   padding-bottom: 20px;
   text-indent: 2em;
   line-height: 1.7;
-  background-color: rgba(202, 138, 0, 0);
+  margin-bottom: 120px;
+}
+.text_his_r {
+  font-size: 24px;
+  padding-right: 33.3%;
+  padding-bottom: 20px;
+  text-indent: 2em;
+  line-height: 1.7;
+  margin-bottom: 120px;
+}
+.historygp {
+  background-color: rgba(129, 77, 51, 0.7);
 }
 
-.title_up {
+.title_up_l {
   position: absolute;
   width: 3%;
   left: 15%;
 }
 
-.title_down {
+.title_down_l {
   position: absolute;
   width: 3%;
-  left: 18%;
-  padding-top: 5%;
+  left: 18.5%;
 }
 
-/* indexbanner*/
+.title_up_r {
+  position: absolute;
+  width: 3%;
+  right: 18.5%;
+}
+
+.title_down_r {
+  position: absolute;
+  width: 3%;
+  right: 15%;
+}
+
+/* histroy_banner*/
 .bannerbg {
   width: 70%;
   margin: auto 15%;
 }
+
+.banner_his {
+  width: 70%;
+  margin: auto 15%;
+}
+
 .left {
   position: absolute;
   width: 25%;
@@ -383,12 +413,24 @@ table {
   line-height: 1.5;
 }
 
-.littlehead {
-  color: black;
+.subhead {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  text-align: initial;
-  font-size: 40px;
-  padding-top: 3%;
-  padding-left: 70%;
+.littlehead {
+  color: #5f0000;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 8%;
   line-height: 1.5;
+}
+.lh_left {
+  padding-left: 68%;
+}
+.lh_right {
+  padding-left: 22%;
 }
