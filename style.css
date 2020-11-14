@@ -168,13 +168,16 @@ table {
 
 .text {
   font-size: 24px;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 20px;
+  margin: 20px 15%;
   text-indent: 2em;
   line-height: 1.5;
 }
-
+.indexp {
+  background-color: rgba(218, 208, 177, 0.7);
+}
+.xinshangp {
+  background-color: rgba(194, 202, 199, 0.7);
+}
 .text_in {
   font-size: 24px;
   padding-left: 15%;
