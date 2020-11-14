@@ -172,12 +172,30 @@ table {
   text-indent: 2em;
   line-height: 1.5;
 }
+
 .indexp {
+  font-size: 24px;
+  margin: 20px 15%;
+  text-indent: 2em;
+  line-height: 1.5;
   background-color: rgba(218, 208, 177, 0.7);
 }
-.xinshangp {
+
+.text_xian {
+  font-size: 24px;
+  margin: 20px 0 2px 5%;
+  text-indent: 2em;
+  line-height: 1.8;
   background-color: rgba(194, 202, 199, 0.7);
 }
+.text_yue {
+  font-size: 24px;
+  margin: 20px 5%;
+  text-indent: 2em;
+  line-height: 2;
+  background-color: rgba(194, 202, 199, 0.7);
+}
+
 .text_in {
   font-size: 24px;
   padding-left: 15%;
@@ -310,14 +328,22 @@ table {
   margin: 10px 0;
   padding: 0 15%;
 }
+
 .big4 {
-  font-size: 45px;
-  text-align: center;
-  padding: 20px;
+  margin: 20px auto;
 }
 
-.container4 img {
-  width: 20%;
+.big4 ul {
+  font-size: 60px;
+  flex-direction: row;
+  display: flex;
+  margin: auto auto;
+  width: 80%;
+  color: rgb(181, 126, 70);
+}
+.big4 img {
+  width: 100%;
+  padding: 10px;
 }
 
 .xyfs {
