@@ -225,54 +225,20 @@ table {
 
 .text_his {
   font-size: 24px;
-  margin: 20px 25%;
   text-indent: 2em;
   line-height: 1.7;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+  background-color: rgba(145, 87, 59, 0.5);
 }
 
-.text_his_l {
-  font-size: 24px;
-  padding-left: 33.3%;
-  padding-bottom: 20px;
-  text-indent: 2em;
-  line-height: 1.7;
-  margin-bottom: 120px;
-}
-.text_his_r {
-  font-size: 24px;
-  padding-right: 33.3%;
-  padding-bottom: 20px;
-  text-indent: 2em;
-  line-height: 1.7;
-  margin-bottom: 120px;
-}
-.historygp {
-  background-color: rgba(129, 77, 51, 0.7);
+.text_his_zw1 {
+  margin-right: 25%;
+  margin-left: 5%;
 }
 
-.title_up_l {
-  position: absolute;
-  width: 3%;
-  left: 15%;
-}
-
-.title_down_l {
-  position: absolute;
-  width: 3%;
-  left: 18.5%;
-}
-
-.title_up_r {
-  position: absolute;
-  width: 3%;
-  right: 18.5%;
-}
-
-.title_down_r {
-  position: absolute;
-  width: 3%;
-  right: 15%;
+.text_his_zw {
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* histroy_banner*/
@@ -424,7 +390,7 @@ table {
   color: #5f0000;
   font-size: 36px;
   font-weight: bold;
-  padding-top: 8%;
+  padding-top: 20px;
   line-height: 1.5;
 }
 .lh_left {
