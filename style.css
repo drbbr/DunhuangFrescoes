@@ -233,26 +233,27 @@ table {
   font-family: "KaiTi", 华文楷体, "MicrosoftJhengHei", 华文细黑, STHeiti,
     MingLiu;
 }
-.introductiongp {
-  background-color: rgba(230, 220, 196, 0.7);
-}
 
 .text_in {
-  font-size: 24px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 30px;
+  font-size: 28px;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 40px;
   text-indent: 2em;
   line-height: 1.5;
   background-color: rgba(230, 220, 196, 0.7);
+  font-family: "KaiTi", 华文楷体, "MicrosoftJhengHei", 华文细黑, STHeiti,
+    MingLiu;
 }
 
 .text_his {
-  font-size: 24px;
+  font-size: 28px;
   text-indent: 2em;
   line-height: 1.7;
   margin-bottom: 20px;
   background-color: rgba(134, 82, 58, 0.7);
+  font-family: "KaiTi", 华文楷体, "MicrosoftJhengHei", 华文细黑, STHeiti,
+    MingLiu;
 }
 
 .text_his_zw1 {
