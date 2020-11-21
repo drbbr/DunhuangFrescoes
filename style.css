@@ -236,12 +236,12 @@ table {
 
 .text_in {
   font-size: 24px;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 30px;
   text-indent: 2em;
   line-height: 1.5;
-  padding-bottom: 80px;
+  background-color: rgba(230, 220, 196, 0.7);
 }
 
 .text_his {
@@ -249,7 +249,7 @@ table {
   text-indent: 2em;
   line-height: 1.7;
   margin-bottom: 20px;
-  background-color: rgba(145, 87, 59, 0.5);
+  background-color: rgba(134, 82, 58, 0.7);
 }
 
 .text_his_zw1 {
